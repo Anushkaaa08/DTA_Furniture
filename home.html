@@ -9,6 +9,8 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <style>
     .hero-buy-btn {
@@ -91,6 +93,55 @@
     }
   </style>
   <body>
+    <!-- Header -->
+
+    <header>
+      <a href="#" class="navbar-icon d-flex text-decoration-none text-black gap-2">
+        <img src="./cart_img/logo.png" alt="Furniro" class="head-icon" />
+        <span class="h2 fw-bold" style="letter-spacing: 1.5px;">Furniro</span>
+      </a>
+      <nav>
+        <ul class="sub-head">
+          <li style="margin-left: 3em">
+            <a href="home.html">Home</a>
+          </li>
+          <li style="margin-left: 3em">
+            <a href="Shop.html">Shop</a>
+          </li>
+          <li style="margin-left: 3em">
+            <a href="about.html">About</a>
+          </li>
+          <li style="margin-left: 3em; margin-right: 8em">
+            <a href="contact.html">Contact</a>
+          </li>
+
+          <li class="icon">
+            <a href="#">
+              <img class="nav-icon" src="./cart_img/profile.png" alt="profile" />
+            </a>
+          </li>
+          <li>
+            <a href="Cart.html">
+              <img
+                class="nav-icon"
+                src="./cart_img/search.png"
+                alt="search"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="nav-icon" src="cart_img/heart.png" alt="heart" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="nav-icon" src="cart_img/cart.png" alt="cart" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <!-- Hero Section -->
 
     <div class="container position-relative">
@@ -943,5 +994,47 @@
         </div>
       </section>
     </div>
+
+    <!-- Footer -->
+    <section class="d-flex justify-content-center">
+      <!--FOOTER-->
+      <footer class="w-100">
+        <div class="footer w-100">
+          <div class="footer-content">
+            <div class="section">
+              <h3 style="font-weight: bolder">Funiro.</h3>
+              <p>
+                400 University Drive Suite <br />
+                Coral Gables <br />
+                FL 33134 USA
+              </p>
+            </div>
+            <div class="section">
+              <h3>LINKS</h3>
+              <p><a href="home.html"> Home </a></p>
+              <p><a href="#"> Shop </a></p>
+              <p><a href="#"> About </a></p>
+              <p><a href="#"> Contact </a></p>
+            </div>
+            <div class="section">
+              <h3>HELP</h3>
+              <p><a href="#">Payment Options</a></p>
+              <p><a href="#">Returns</a></p>
+              <p><a href="#">Privacy Policies</a></p>
+            </div>
+            <div class="section">
+              <h3>SIGN UP</h3>
+              <p>Receive exclusive email-only promotions and offers</p>
+              <button class="button">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <section class="footer">
+      <hr class="footer-hr" />
+      <p class="footer-text">2023 furino. All rights reserved</p>
+    </section>
   </body>
 </html>
